@@ -6,6 +6,7 @@
             "type": "cppbuild",
             "command": "g++",
             "args": [
+                "-g",
                 "-shared",
                 "-o",
                 "${fileDirname}\\bin\\${fileBasenameNoExtension}.dll",
