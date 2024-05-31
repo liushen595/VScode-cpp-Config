@@ -1,7 +1,11 @@
 # VScode-cpp-Config
 VScode cpp 配置，更简单，不使用cmake实现多文件编译
 
+<<<<<<< HEAD
 ## 目前仅支持GCC编译器和Windows平台
+=======
+## 注意，目前仅支持GCC编译器和Windows平台
+>>>>>>> 1dae78bb9c39bdeb1dbfd8430b53f17c47e85772
 ## 使用时请将文件中编译器的路径替换为自己的路径
 
 static文件夹放入了使用静态链接库的编译时的配置文件，使用时将源文件和头文件在主程序全部"#include"，源文件放在**工作区文件夹**的*source*文件夹，头文件放在**工作区文件夹**的*header*文件夹
